@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "path": "products-alpha",
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "isCurrent": true,
+    "displayName": "products alpha",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://app-gw-test-1.azurewebsites.net/products",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

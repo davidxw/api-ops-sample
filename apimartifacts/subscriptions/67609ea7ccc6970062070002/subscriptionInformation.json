@@ -1,0 +1,8 @@
+{
+  "properties": {
+    "scope": "/subscriptions/68dfa90d-6200-4bc6-bdad-178344084a61/resourceGroups/apim-workspaces/providers/Microsoft.ApiManagement/service/apim-ws-main/products/unlimited",
+    "allowTracing": false,
+    "ownerId": "/subscriptions/68dfa90d-6200-4bc6-bdad-178344084a61/resourceGroups/apim-workspaces/providers/Microsoft.ApiManagement/service/apim-ws-main/users/1",
+    "state": "active"
+  }
+}
