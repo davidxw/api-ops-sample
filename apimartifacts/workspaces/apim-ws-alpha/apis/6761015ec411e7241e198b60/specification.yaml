@@ -1,0 +1,35 @@
+openapi: 3.0.1
+info:
+  title: products alpha
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://apim-ws-main.azure-api.net/products-alpha
+  - url: https://apim-ws-alpha-a3excehka0fme4dp.gateway.australiaeast-01.azure-api.net/products-alpha
+paths:
+  '/{id}':
+    get:
+      summary: Get Product
+      operationId: get-product
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: ''
+      responses:
+        '200':
+          description: 
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]
