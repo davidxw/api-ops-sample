@@ -1,2 +1,8 @@
+ productNames:
+  - ignore
+ subscriptionNames:
+ - ignore
+ groupNames:
+ - ignore
  workspaceNames:
   - apim-ws-alpha
